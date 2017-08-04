@@ -1,10 +1,4 @@
 
-from .ui import render_template
-
-
-ren = render_template
-
-
 
 
 class Rotary(object):
@@ -13,4 +7,4 @@ class Rotary(object):
 
 
         self.package_name = package_name
-        }
+        
