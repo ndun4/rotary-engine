@@ -1,21 +1,16 @@
 
+from .ui import render_template
 
 
+ren = render_template
 
 
 
 
 class Rotary(object):
-    
-    #setup
 
-    
+    def __init__(self, package_name):
 
 
-
-
-
-
-
-
-    #gameloop
+        self.package_name = package_name
+        }
